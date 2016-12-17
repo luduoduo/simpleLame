@@ -1,0 +1,16 @@
+The source is to build static lib lame for mp3 encoding.
+The source is extracted from LAME project v3.99 (http://lame.sourceforge.net).
+The example file shows how to use lame lib to convert pcm mono file to mp3 file.
+
+##### build #####
+make (means to generate lib and executable example)
+make lib (means to generate static lib)
+
+
+##### clean #####
+make clean
+
+
+##### settings for specific platform #####
+set CC, SYSROOT in Makefile
+
