@@ -11,6 +11,12 @@ make lib (means to generate static lib)
 make clean
 
 
+##### exmaple #####
+After building all, you can run exmaple file.
+cd <project folder>
+./example/testLame ./example/000.raw ./example/000.mp3
+
+
 ##### settings for specific platform #####
 set CC, SYSROOT in Makefile
 
