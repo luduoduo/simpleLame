@@ -18,5 +18,6 @@ cd <project folder>
 
 
 ##### settings for specific platform #####
-set CC, SYSROOT in Makefile
+set CC, SYSROOT, LIB_TYPE in Makefile
+For dynamic lib, set LIB_TYPE=solib, otherwise it will be static lib
 
